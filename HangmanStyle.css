@@ -1,0 +1,117 @@
+html {
+  height: 100%;
+}
+body {
+  max-height: 100vh;
+  background-image: linear-gradient(to right, #606c88, #3f4c6b);
+  text-align: center;
+}
+.wrapper{
+  justify-content: center;
+  color: white;
+}
+.header{
+  text-align: center;
+}
+.img-grid{
+  display: grid;
+  height: 50vh;
+  justify-content: center;
+}
+.image{
+  height:50vh;
+}
+.letter-div, .word-div{
+  height: 20%;
+}
+  .hint-div {
+    display: flex;
+    color: chartreuse;
+  }
+  .hint-btn,
+  .reset-btn,
+  .easy-btn,
+  .normal-btn,
+  .hard-btn,
+  .notif-btn {
+    cursor: pointer;
+  }
+  .reset-btn {
+    font-family: sans-serif;
+    margin-left: auto;
+  }
+  .easy-btn {
+    font-family: sans-serif;
+    margin-left: auto;
+  }
+  .normal-btn {
+    font-family: sans-serif;
+    margin-left: auto;
+  }
+  .hard-btn {
+    font-family: sans-serif;
+    margin-left: auto;
+  }
+  .alpha {
+    width: 2rem;
+    height: 2rem;
+    background: #ffe5b4;
+    border: none;
+    border-radius: 4px;
+    margin: 3px;
+    cursor: pointer;
+  }
+  .alpha:hover {
+    background-color: #e75480;
+    border: none;
+  }
+  .disabled {
+    pointer-events: none;
+    background-color: darkgray;
+  }
+  
+  .word-div {
+    display: inline-flex;
+  }
+  .word {
+    margin-right: 1.5rem;
+  }
+  
+  .notifL {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fc6c85;
+    width: 20rem;
+    padding: 20px 10px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+.notifW {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #6cfc84;
+  width: 20rem;
+  padding: 20px 10px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.2);
+}
+  .blur {
+    filter: blur(2px);
+  }
+  .hidden {
+    display: none;
+  }
+  .timer{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 24px 32px;
+    border-radius: 30px;
+    background: cornflowerblue;
+    cursor: pointer;
+  }
